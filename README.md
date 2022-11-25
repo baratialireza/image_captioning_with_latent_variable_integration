@@ -1,2 +1,2 @@
-# image_captioning_with_latent_variable_integration
+# image_captioning_with_latent_variable
 This study aims to integrate a latent variable into image captioning using CNN-RNN-Att.As an instance of a latent variable, High-Level Semantic Concepts (HLSCs) of tags are used to implement the proposed model. The Bayesian model output solution is to localize the entire image description process and break it down into sub-problems.  Thus, a baseline descriptor subnet is trained independently for each sub-problem, and it is the only expert in captioning for a given HLSC.
